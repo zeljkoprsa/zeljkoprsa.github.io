@@ -5,7 +5,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #333;
 }
 
 html {
@@ -134,12 +134,10 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: white;
     padding: 20px 0;
 }
 
@@ -216,11 +214,11 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
+    }
+    .header-container{
+        font-size: 80%;
+    }
 /* ============
     WIDE: Menu
    ============ */
